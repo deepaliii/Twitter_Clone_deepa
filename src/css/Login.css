@@ -1,0 +1,79 @@
+.Login_page
+{
+align-items:center ;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+width: 50vw;
+display: flex;
+flex-direction: column;
+
+}
+.Login_logo
+{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+ .Login_main
+{
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+} 
+.Login_main_content
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+     padding: 25px; 
+     background-color:#F5F8FA;
+     margin-top: 20px;
+     
+     
+    
+}  
+.Login_main_content:hover
+{
+    border-bottom: 2px solid #1DA1F2;
+}
+
+
+.Login_main_button
+{
+
+    border-radius: 9999px;
+    color:white;
+    border-width: 1px;
+    border: none;
+    padding : 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:#8ED0F9;
+    outline-style: none;
+
+}
+.Login_anchor
+{
+    margin-left:auto ;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+   
+}
+.Login_anchor_content > a
+{
+    color:#1DA1F2;
+    font-size: small;
+    text-decoration: none;  
+    justify-content: space-evenly;
+    margin-left: 5px;
+
+}
+.Login_anchor_content > a:hover
+{
+    border-bottom:1px solid #1DA1F2;
+}

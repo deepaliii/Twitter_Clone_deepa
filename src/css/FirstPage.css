@@ -1,0 +1,210 @@
+.main
+{
+    overflow: hidden;
+    align-items: center;
+}
+.left_right
+{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    
+    
+}
+.left_div
+{
+    height:92vh;
+    background-color:#71C9F8;
+    width: 50%;
+    overflow: hidden;
+    
+}
+.left_div_content{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 10%;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstpage__contentDataLine{
+    display: flex;
+    justify-content: start;
+    margin: 20px;
+}
+.firstpage__contentDataLine > .MuiSvgIcon-root{
+    margin-top: 20px;
+  }
+.right_div
+{
+    height:92vh;
+    margin-top: 0px;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.input_name {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 25px;
+    background-color:#F5F8FA;
+    margin-top: 15px;
+    margin-left: 70px; 
+    
+}
+.input_password {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 25px;
+    background-color:#F5F8FA;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+   
+}
+.footer
+{
+    margin-top: 0px;
+    background-color: white;
+    /* padding: 0 px; */
+    height: 5vh;
+    margin-top: 10px;
+    
+}
+.footer_element
+{
+    color: #977796;
+    margin-left: 80px;
+    font-size: small;
+    margin-top: 20px;
+
+    
+}
+.footer_element>span
+{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.login
+{
+border-radius: 9999px;
+padding-left: 1em;
+padding-right: 1em;
+user-select: none;
+outline-style: none;
+cursor: pointer;
+min-height: 39px;
+min-width: 39px;
+margin-left: 10px;
+background-color: white;
+border: 2px solid #1DA1F2;
+}
+.img_right
+{
+
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.right_form
+{
+  margin-left: 120px;
+  margin-top: 60px;
+}
+.para1
+{
+font-size: xx-large;
+font-weight: bold;
+margin-top: 10px;
+}
+.para2
+{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 0px; 
+}
+.para3
+{
+    font-weight: bold;
+    margin-top: 50px;
+}
+.sign_up
+{
+
+    border-radius: 9999px;
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    border-width: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    user-select: none;
+    outline-style: none;
+    cursor: pointer;
+    min-height: 39px;
+    min-width: 39px;
+    margin-left: 0px;
+    background-color: #1DA1F2;
+    width: 70%;   
+}
+.main_login
+{
+    border-radius: 9999px;
+    font-weight: bold;
+    font-size: 15px;
+    color:#1DA1F2;
+    border-width: 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    user-select: none;
+    outline-style: none;
+    cursor: pointer;
+    min-height: 39px;
+    min-width: 39px;
+    margin-left: 0px;
+    margin-top: 15px;
+    background-color:white;
+    width: 70%; 
+
+}
+.forgot
+{
+    margin-left:310px;
+    margin-top: 0px;
+    
+    
+}
+.forgot > a{ 
+    color:#1DA1F2;
+    font-size: small;
+    text-decoration: none;  
+}
+
+.left_div>img
+{
+    
+        height:145%;
+        margin-top: -134px;
+    
+}
+@media screen and (max-width: 800px){
+
+    .left_right{
+        display: flex;
+        flex-direction: column;
+        width: 200%;
+       }
+}

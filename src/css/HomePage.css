@@ -1,0 +1,56 @@
+.homepage_leftLogo
+{
+
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+.homepage{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.homepage__left{
+    height: 100vh;
+    width: 30%;
+    padding-top: 10px;
+    
+    
+}
+.homepage__leftData{
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.homepage__leftNav{
+    width: fit-content;
+}
+.homepage__leftNavBar{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 9999px;
+
+
+}
+
+.homepage__leftData > button{
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 9999px;
+    border: none;
+    outline-style: none;
+    background-color: #70818b;
+    font-weight: 800;
+color: #fff;
+}
+.homepage__leftNavBar:hover{
+    cursor: pointer;
+    background-color: #E8F5FE;
+}
